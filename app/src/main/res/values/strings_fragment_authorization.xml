@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<resources>
+    <!-- Authorization Details Card -->
+    <string name="fragment_authorization_authorization_details_header">Authorization Details</string>
+
+    <string name="fragment_authorization_authorization_details_id">ID</string>
+    <string name="fragment_authorization_authorization_details_duration">Duration</string>
+    <string name="fragment_authorization_authorization_details_valid_until">Valid Until</string>
+    <string name="fragment_authorization_authorization_details_selected_producers">Selected Beacons</string>
+    <string name="fragment_authorization_authorization_details_selected_fragment_count">Fragment Count</string>
+    <string name="fragment_authorization_authorization_details_selected_fragment_size">Fragment Length</string>
+
+    <!-- Prove Location Button -->
+    <string name="fragment_authorization_prove_location_button">Prove Location</string>
+</resources>

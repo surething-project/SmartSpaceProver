@@ -1,0 +1,62 @@
+plugins {
+    id 'com.github.sherter.google-java-format' version '0.9'
+    id 'com.android.application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 30
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "pt.ulisboa.tecnico.surespace.prover"
+        minSdkVersion 29
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude '**/.proto'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // implementation group: 'com.google.guava', name: 'guava', version: '24.1-jre'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // You need to build grpc-java to obtain these libraries below.
+    implementation 'io.grpc:grpc-okhttp:1.34.1'
+    implementation 'io.grpc:grpc-protobuf:1.34.1'
+    implementation 'io.grpc:grpc-stub:1.34.1'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'pt.ulisboa.tecnico.surespace:common:1.0-SNAPSHOT'
+    implementation 'pt.ulisboa.tecnico.surespace.long_term_ca:long_term_ca-client:1.0-SNAPSHOT'
+    implementation 'pt.ulisboa.tecnico.surespace.orchestrator:orchestrator-client:1.0-SNAPSHOT'
+    implementation 'pt.ulisboa.tecnico.surespace.verifier:verifier-client:1.0-SNAPSHOT'
+
+    // Required to record WAV files
+    implementation 'com.github.squti:Android-Wave-Recorder:1.4.0'
+}

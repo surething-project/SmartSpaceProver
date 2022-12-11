@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<resources>
+    <string name="fragment_login_email">E-mail</string>
+    <string name="fragment_login_password">Password</string>
+    <string name="fragment_login_login">Login</string>
+    <string name="fragment_login_sign_up">Sign up for SureThing</string>
+</resources>

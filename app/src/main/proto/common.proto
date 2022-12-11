@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pt.ulisboa.tecnico.surespace.framework.grpc;
+
+service SigningService {
+    rpc SignCsr (SignCsrRequest) returns (SignCsrResponse);
+}
+
+message SignCsrRequest {
+    bytes csr = 1;
+}
+
+message SignCsrResponse {
+    bytes certificate = 1;
+}

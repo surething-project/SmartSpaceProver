@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="SureSpaceTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Fullscreen activity, occupying notch space. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Enable window content transitions. -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:animateLayoutChanges">true</item>
+        <item name="android:animationDuration">@android:integer/config_longAnimTime</item>
+
+        <!-- Specify enter and exit transitions. -->
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+
+        <!-- No yellow backgrounds when using autocomplete. -->
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+    </style>
+
+</resources>

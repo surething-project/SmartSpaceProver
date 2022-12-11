@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<resources>
+    <!-- User Details Card -->
+    <string name="fragment_main_user_details_header">User Details</string>
+
+    <string name="fragment_main_user_details_icon_description">User Icon</string>
+
+    <!-- Request Authorization Button -->
+    <string name="fragment_main_request_authorization_button">Request Authorization</string>
+</resources>

@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="505"
+    android:viewportHeight="505">
+    <path
+        android:fillColor="#FFFF00"
+        android:pathData="M252.5,252.5m-252.5,0a252.5,252.5 0,1 1,505 0a252.5,252.5 0,1 1,-505 0" />
+    <path
+        android:fillColor="#2B3B4E"
+        android:pathData="M139.2,117.4h16.4v275.1h-16.4z" />
+    <path
+        android:fillColor="#2B3B4E"
+        android:pathData="M349.4,117.4h16.4v275.1h-16.4z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M273.5,267.9c-5,-3.5 -8,-9.3 -8,-15.4s3,-11.9 8,-15.4c66.1,-45.8 67.1,-118.9 67.1,-118.9H164.4c0,0 1,73.2 67.1,118.9c5,3.5 8,9.3 8,15.4c0,6.1 -3,11.9 -8,15.4c-66.1,45.8 -67.1,118.9 -67.1,118.9h176.1C340.6,386.8 339.5,313.6 273.5,267.9z" />
+    <path
+        android:fillColor="#FFD05B"
+        android:pathData="M239.5,225.6c3.2,2.2 5.9,4.9 8.1,8c1.1,1.6 3,2.4 4.9,2.4l0,0c1.9,0 3.8,-0.9 4.9,-2.4c2.2,-3.1 4.9,-5.8 8.1,-8c24.6,-17.1 39.3,-38.2 48.1,-57.2H191.4C200.2,187.5 214.8,208.6 239.5,225.6z" />
+    <path
+        android:fillColor="#FFD05B"
+        android:pathData="M206.8,342.4c-7.4,9.8 -12.8,19.8 -16.9,29.2h124.9c-4,-9.4 -9.5,-19.3 -16.8,-29.2H206.8z" />
+    <path
+        android:fillColor="#324A5E"
+        android:pathData="M370.1,94.7H134.9c-6.5,0 -11.7,5.3 -11.7,11.7c0,6.5 5.3,11.7 11.7,11.7h235.2c6.5,0 11.7,-5.3 11.7,-11.7C381.9,99.9 376.6,94.7 370.1,94.7z" />
+    <path
+        android:fillColor="#324A5E"
+        android:pathData="M370.1,386.8H134.9c-6.5,0 -11.7,5.3 -11.7,11.7c0,6.5 5.3,11.7 11.7,11.7h235.2c6.5,0 11.7,-5.3 11.7,-11.7C381.9,392.1 376.6,386.8 370.1,386.8z" />
+</vector>

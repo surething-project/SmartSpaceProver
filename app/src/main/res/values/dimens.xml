@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<resources>
+    <!-- Text size -->
+    <dimen name="text_size_l">18sp</dimen>
+    <dimen name="text_size_m">14sp</dimen>
+    <dimen name="text_size_s">12sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_l">50dp</dimen>
+    <dimen name="padding_m">20dp</dimen>
+    <dimen name="padding_s">10dp</dimen>
+
+    <!-- Icons size -->
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_l">48dp</dimen>
+</resources>

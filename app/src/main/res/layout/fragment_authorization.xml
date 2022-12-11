@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The SureThing project
+  ~ @author João Tiago <joao.marques.tiago@tecnico.ulisboa.pt>
+  ~ http://surething.tecnico.ulisboa.pt/en/
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_l">
+
+        <LinearLayout
+            android:id="@+id/authorization_details_card_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/card"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_header"
+                android:padding="@dimen/padding_s"
+                android:text="@string/fragment_authorization_authorization_details_header"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_size_m" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_m"
+                android:shrinkColumns="1">
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_id"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_id_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_duration"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_duration_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_valid_until"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_valid_until_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_selected_producers"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_selected_producers_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_selected_fragment_count"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_selected_fragment_count_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+
+                <TableRow android:padding="@dimen/padding_s">
+
+                    <TextView
+                        android:text="@string/fragment_authorization_authorization_details_selected_fragment_size"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <Space android:layout_width="@dimen/padding_m" />
+
+                    <TextView
+                        android:id="@+id/fragment_authorization_authorization_details_selected_fragment_length_value"
+                        android:textAlignment="textStart" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fragment_authorization_prove_location_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/fragment_authorization_prove_location_button"
+                android:textSize="@dimen/text_size_m" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
